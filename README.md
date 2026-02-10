@@ -1,4 +1,4 @@
-# Chinmay Kulkarni — Resume
+# LaTex Resume
 
 A modular LaTeX resume with each section in its own file for easy editing.
 
