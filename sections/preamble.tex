@@ -1,0 +1,47 @@
+% -------------------- GEOMETRY --------------------
+\usepackage[
+  left=1.6cm,
+  right=1.6cm,
+  top=1.4cm,
+  bottom=1.6cm
+]{geometry}
+
+% -------------------- FONT (pdfLaTeX SAFE) --------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+% -------------------- SPACING --------------------
+\usepackage{setspace}
+\setstretch{1.04}
+
+\usepackage{parskip}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+
+% -------------------- SECTION FORMATTING --------------------
+\usepackage{titlesec}
+\titleformat{\section}
+  {\fontsize{11.5pt}{12pt}\bfseries}
+  {}
+  {0pt}
+  {}
+  [\vspace{-2pt}\titlerule]
+
+\titlespacing{\section}{0pt}{10pt}{6pt}
+
+% -------------------- LIST SPACING --------------------
+\usepackage{enumitem}
+\setlist[itemize]{
+  leftmargin=1.2em,
+  itemsep=1pt,
+  topsep=1pt,
+  parsep=0pt
+}
+
+% -------------------- TABLES & LAYOUT --------------------
+\usepackage{tabularx}
+\usepackage{multicol}
+
+\pagestyle{empty}

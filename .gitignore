@@ -1,0 +1,4 @@
+# Ignoring some of the generated files
+*.aux
+*.log
+*.pdf
