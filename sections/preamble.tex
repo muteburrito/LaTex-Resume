@@ -14,10 +14,10 @@
 
 % -------------------- SPACING --------------------
 \usepackage{setspace}
-\setstretch{1.04}
+\setstretch{1.0}
 
 \usepackage{parskip}
-\setlength{\parskip}{4pt}
+\setlength{\parskip}{2pt}
 \setlength{\parindent}{0pt}
 
 % -------------------- SECTION FORMATTING --------------------
@@ -27,21 +27,22 @@
   {}
   {0pt}
   {}
-  [\vspace{-2pt}\titlerule]
+  [\vspace{-3pt}\titlerule]
 
-\titlespacing{\section}{0pt}{10pt}{6pt}
+\titlespacing{\section}{0pt}{8pt}{4pt}
 
 % -------------------- LIST SPACING --------------------
 \usepackage{enumitem}
 \setlist[itemize]{
-  leftmargin=1.2em,
-  itemsep=1pt,
-  topsep=1pt,
+  leftmargin=1.1em,
+  itemsep=0pt,
+  topsep=0pt,
   parsep=0pt
 }
 
 % -------------------- TABLES & LAYOUT --------------------
 \usepackage{tabularx}
 \usepackage{multicol}
+\usepackage[hidelinks]{hyperref}
 
 \pagestyle{empty}
