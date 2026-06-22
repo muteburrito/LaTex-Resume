@@ -25,7 +25,6 @@ Install a LaTeX distribution:
 | OS      | Distribution                           | Install                                |
 |---------|----------------------------------------|----------------------------------------|
 | Windows | [MiKTeX](https://miktex.org/download)  | Download installer from site           |
-| Windows | [TeX Live](https://tug.org/texlive/)   | `winget install TeXLive`               |
 | macOS   | [MacTeX](https://tug.org/mactex/)      | `brew install --cask mactex`           |
 | Linux   | TeX Live                               | `sudo apt install texlive-full`        |
 
